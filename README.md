@@ -15,8 +15,18 @@ npx hardhat run scripts/deploy.js
 
 yarn command for installing needed dependencies
 
+yarn add or npm install
+
 yarn add --save-dev "@ethersproject/providers@^5.4.7" "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@nomiclabs/hardhat-ethers@^2.0.0" "@types/chai@^4.2.0" "@types/mocha@^9.1.0" "@typechain/ethers-v5@^10.1.0" "@typechain/hardhat@^6.1.2" "chai@^4.2.0" "ethers@^5.4.7" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.7.21" "ts-node@>=8.0.0" "typechain@^8.1.0" "typescript@>=4.5.0" "dotenv@^16.0.1" "@openzeppelin/contracts@^4.7.0" "@nomicfoundation/hardhat-toolbox@^1.0.2" "@nomiclabs/hardhat-etherscan@^3.0.0"
 
+
+<------------------------------------------------------>
+
+Warpspeed Setup Guide Video commands
+
+npx hardhat run ./scripts/deployOnSKALE.js —network skale
+
+npx hardhat verify <<contract address>>  —network skale 
 
 <------------------------------------------------------>
 

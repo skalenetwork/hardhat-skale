@@ -3,12 +3,12 @@ const hre = require("hardhat");
 async function main() {
 
 
-  const HelloSkale = await hre.ethers.getContractFactory("HelloSkale");
+  const HelloSkale = await hre.ethers.getContractFactory("HelloSKALE");
   const helloskale = await HelloSkale.deploy();
 
   await helloskale.deployed();
 
-  console.log("HelloSkale.sol deployed to:", helloskale.address);
+  console.log("HelloSKALE.sol deployed to:", helloskale.address);
 }
 
 

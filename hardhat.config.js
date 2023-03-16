@@ -13,9 +13,9 @@ module.exports = {
   networks: {
 
     skale: {
-            url: process.env.ENDPOINT_URL_SKALE,
+            url: process.env.SKALE_ENDPOINT,
            
-            accounts: [process.env.PRIVATEKEY_sFUEL]
+            accounts: [process.env.PRIVATE_KEY]
           },
       
   },
@@ -26,7 +26,7 @@ module.exports = {
     customChains: [
       {
         network: "skale",
-        chainId: parseInt(process.env.chainId),
+        chainId: parseInt(process.env.CHAIN_ID),
         urls: {
           apiURL: process.env.API_URL,
           browserURL: process.env.BLOCKEXPLORER_URL,
